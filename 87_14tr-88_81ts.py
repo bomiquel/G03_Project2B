@@ -91,6 +91,7 @@ classifier.add(Dense(units = 1, activation = "sigmoid"))
 # Compilar la CNN
 classifier.compile(optimizer = "RMSprop", loss = "binary_crossentropy", metrics = ["accuracy"]) #NUEVO
 #classifier.compile(optimizer = "adam", loss = "binary_crossentropy", metrics = ["accuracy"])
+
 # Parte 2 - Ajustar la CNN a las imágenes para entrenar 
 from keras.preprocessing.image import ImageDataGenerator
 
